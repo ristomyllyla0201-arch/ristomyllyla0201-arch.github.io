@@ -1,5 +1,5 @@
 :root{
-  --bg:#0b132b; --text:#e6edf6; --muted:#a5b4c7; --accent:#4f81bd;
+  --bg:#4371fa; --text:#e6edf6; --muted:#a5b4c7; --accent:#4f81bd;
   --panel:#131c3a; --card:#0f1a36; --border:rgba(255,255,255,.08);
 }
 :root.light{
