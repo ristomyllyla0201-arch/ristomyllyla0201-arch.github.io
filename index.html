@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Risto Myllylä — Portfolio</title>
+  <meta name="description" content="Portfolio of Risto Myllylä" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/"><span class="logo" aria-hidden="true">RM</span><span>Risto Myllylä</span></a>
+    <nav aria-label="Primary">
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌓</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero container">
+    <div>
+      <h1>Hi, I’m <span class="accent">Risto</span>.</h1>
+      <p class="lede">IT support student who likes fixing things, helping people, and building PCs. I post small projects here and link to my CV.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See projects</a>
+        <a class="btn" href="assets/CV.pdf">Open CV</a>
+      </div>
+    </div>
+    <div class="avatar-holder">
+      <img src="assets/avatar.jpg" alt="Risto Myllylä" onerror="this.style.display='none'">
+    </div>
+  </section>
+
+  <section id="about" class="section container">
+    <h2>About</h2>
+    <p>I enjoy practical problem‑solving and clear communication. Recently I’ve worked on Windows image installs, PC component repairs, and technical support at gaming events (incl. hosting a Rocket League tournament).</p>
+  </section>
+
+  <section id="projects" class="section container">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card project">
+        <div class="thumb"></div>
+        <h3>Project title</h3>
+        <p>One‑sentence description of what it does and what you learned.</p>
+        <p class="tags"><span>Tag</span><span>Tag</span></p>
+        <p class="links">
+          <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+          <a class="btn small ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </article>
+      <article class="card project">
+        <div class="thumb"></div>
+        <h3>Another project</h3>
+        <p>Short description. Replace the gray box with an image by setting background-image in CSS or using &lt;img&gt;.</p>
+        <p class="tags"><span>Windows</span><span>Batch</span></p>
+        <p class="links">
+          <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+          <a class="btn small ghost" href="#" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section container">
+    <h2>Skills</h2>
+    <div class="grid two">
+      <ul class="card">
+        <li>Windows installation & imaging</li>
+        <li>PC hardware diagnostics & repair</li>
+        <li>SQL basics (MySQL, SQL Server)</li>
+        <li>Programming basics: JS / Python / C++ / CSS</li>
+      </ul>
+      <ul class="card">
+        <li>Customer support</li>
+        <li>Event tech support (LAN / tournaments)</li>
+        <li>Office 365</li>
+        <li>Electronics basics (soldering, components)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section container">
+    <h2>Contact</h2>
+    <ul class="contact-list">
+      <li>Email: <a href="mailto:S3myri00@students.osao.fi">S3myri00@students.osao.fi</a></li>
+      <li>GitHub: <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></li>
+      <li>LinkedIn: <a href="#" target="_blank" rel="noopener">linkedin.com/in/your-handle</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© <span id="year"></span> Risto Myllylä</p>
+  </div>
+</footer>
+</body>
+</html>
